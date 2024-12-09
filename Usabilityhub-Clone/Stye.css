@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+:root{
+  --primary-text-color: #183b56;
+  --secondary-text-color: #577592;
+  --accent-color: #2294ed;
+  --accent-color-dark: #1d69a3;
+  --padding-inline-section: 20px
+}
+body{
+  font-family: 'poppins', sans-serif;
+  color: var(--primary-text-color);
+}
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: 3rem;
+}
+h3{
+  font-size: 1.5rem;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
+  color: black;
+  line-height: 1.8rem;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+.small-bold-text{
+  font-size: 1rem;
+  font-weight: 700;
+}
+.container{
+  max-width:  1180px;
+  margin-inline: auto;
+  padding-inline: var(--padding-inline-sectionpadd);
+  
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+.banner-text{
+    color: white;
+    padding: 15px 10px;
+    margin-left: 400px;
+    
+    
+}
+.top-banner{
+  background-color: #4fb3d4;
+  height: 70px;
+  margin-top: -19px;
+  
+}
+.main-nav{
+  display: flex;
+
+
+}
+ul{
+  list-style: none;
+}
+.main-nav{
+  margin-top: 19px;
+  justify-content: space-between;
+}
+.company-logo img{
+  width: 200px;
+}
+.nav-links {
+  flex-basis: 730px;
+}
+.nav-links ul{
+    justify-content: end;
+    gap: 40px;
+
+}
+.hover-links{
+  color: var(--primary-text-color);
+
+}
+.hover-links:hover{
+  color: var(--accent-color);
+}
+.primary-button{
+  background-color: var(--accent-color);
+  border-radius: 6px;
+  font-weight: 700;
+  color: white;
+  padding: 12px 24px;
+}
+.primary-button:hover{
+  color: white;
+  background-color: var(--accent-color-dark);
+}
+.secondary-button{
+  border: 0.5px solid var(--secondary-text-color);
+  border-radius: 6px;
+  font-weight: 700;
+  color: var(--primary-text-color);
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+}
+.header{
+  padding: 50px var(--padding-inline-section);
+}
+.header-section{
+  justify-content: center;
+  gap: 50px;
+}
+.header-left{
+  max-width: 40vw;
+  margin-top: 100px;
+}
+.first-image{
+  width: 400px;
+  margin-top: 30px;
+}
+.First-heading{
+  margin-bottom: 10px;
+}
+.First-para{
+  margin-bottom: 15px;
+  width: 700px;
+  color: var(--secondary-text-color);
+}
+.companies-header{
+  text-align: center;
+  margin-block: 30px;
+  color: var(--primary-text-color);
+  margin-top: 80px;
+}
+.logos{
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+.logo{
+  height: 46px;
+  margin-top: 30px;
+
+}
+.features-header{
+  text-align: center;
+  
+}
+.features-section{
+  padding: 80px var(--padding-inline-section) 0;
+  margin-top: 25px;
+}
+.header-two{
+  margin-top: 10px;
+  font-size: 40px;
+}
+.middile-button{
+  margin-right: 60px;
+  font-size: 13px;
+  width: 140px;
+  margin-top: 15px;
+  
+}
+.features-card{
+  flex-direction: column;
+  gap: 20px;
+  max-width: 30%;
+  text-align: center;
+ 
+}
+.features-area{
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 60px;
+  margin: 20px;
+
+}
+.big-features-section{
+
+  padding: 30px var(--padding-inline-section) 0;
+}
+.big-features-container{
+  gap: 30px;
+}
+.feature-img img{
+  width: 100%;
+  
+}
+.feature-desc{
+  flex-direction: column;
+  align-items: flex-start;
+}
+.three{
+  flex-direction: row-reverse;
+}
+.examples-header{
+  text-align: center;
+
+}
+.examples-card{
+  width: 23%;
+  position: relative;
+    min-height: 300px;
+    background: black;
+    background-image: url(./Pictures/);
+}
+.card-text{
+
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  color: white;
+}
+.cta-section-container{
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+}
+.cta-section{
+  background-color: #183b56;
+  padding: 120px var(--padding-inline-section);
+}
+.cta-section-container{
+color: white;
+margin-top: 20px;
+}
+.cta-one{
+  color: white;
+}
+.cta-head{
+  font-size: 35px;
+}
+.last-button{
+  margin-right: 19px;
+}
+.link-column{
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.footer-container{
+  align-items: flex-start;
+  justify-content: space-between;
+
+}
+.footer{
+  padding-block: 80px;
+  background-color: #ebf2fa
+}
+.subfooter{
+  background-color: #b9cde4;
+  padding: var(--padding-inline-section);
+}
+.subfooter-container{
+  justify-content: center;
+  gap: 30px;
+   
+}
